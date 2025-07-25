@@ -1,5 +1,5 @@
 from flask import Flask
-from .routes import main_bp
+from .blueprints.main import main_bp
 
 def create_app(config_name="development"):
     app = Flask(__name__)
